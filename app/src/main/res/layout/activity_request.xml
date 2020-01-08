@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89CCFF"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/blue"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="Request"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/productType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Jacket"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name of item if possible"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/colour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Black/Red"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Medium"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g 2"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/address1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Mayor Square"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/address2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="National College of Ireland"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:textColor="@color/darkBlue"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:text="Request" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnPayNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:text="Pay Now" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
